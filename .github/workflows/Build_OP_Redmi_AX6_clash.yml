@@ -144,7 +144,7 @@ jobs:
         echo "release_tag=$(date +"%Y.%m.%d-Redmi-AX6-Include-OpenClash")" >> $GITHUB_OUTPUT
         touch release.txt
         echo "红米 AX6 自用精简 Openwrt：" >> release.txt
-        echo "默认系统后台：192.168.123.1" >> release.txt
+        echo "默认系统后台：192.168.1.249" >> release.txt
         echo "账号：root" >> release.txt
         echo "密码：password" >> release.txt
         echo "编译的源码取自：https://github.com/coolsnowwolf/lede" >> release.txt
