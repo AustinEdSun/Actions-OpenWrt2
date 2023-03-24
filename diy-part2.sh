@@ -19,7 +19,6 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-th
 
 # 添加额外软件包
 git clone https://github.com/kenzok8/openwrt-packages.git package/kenzok8
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 # 取消原主题luci-theme-bootstrap 为默认主题
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
