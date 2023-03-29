@@ -15,7 +15,7 @@ NET="package/base-files/files/bin/config_generate"
 ZZZ="package/lean/default-settings/files/zzz-default-settings"
 
 # Modify default IP
-sed -i 's#192.168.1.1#192.168.1.249#g' $NET
+sed -i 's/192.168.1.1/192.168.1.249/g' package/base-files/files/bin/config_generate
 
 # 删除原默认主题
 rm -rf package/lean/luci-theme-argon
